@@ -37,6 +37,4 @@ def crawl(url):
         crawl(next_url)
 
 
-
-# start crawling from your first trap URL:
-crawl("http://localhost:5173")
+crawl("http://localhost:3000")
